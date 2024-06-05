@@ -11,8 +11,6 @@ import matplotlib.pyplot as plb
 import warnings
 warnings.simplefilter('error')
 
-# Save figure directory
-opath = '/Users/jeslop/Downloads/'
 
 # Population parameters
 N = int(100)                            # Number of human agents
