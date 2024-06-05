@@ -134,8 +134,8 @@ fig.colorbar(cfIR, cax=cbar_ax)
 #fig.tight_layout()
 
 if beta_AI_eq_H_OPT==True:
-    plb.savefig(opath+"betaH.eq.betaH.png", format="png", bbox_inches="tight",dpi=1000)
+    plb.savefig("betaH.eq.betaH.png", format="png", bbox_inches="tight",dpi=1000)
 else:
     fig.suptitle(r'$\beta_{AI} = $'+'{0:.2f}'.format(beta_AI))
-    plb.savefig(opath+"betaH_"+str(beta_AI)+".neq.betaH.png", format="png", bbox_inches="tight",dpi=1000)
+    plb.savefig("betaH_"+str(beta_AI)+".neq.betaH.png", format="png", bbox_inches="tight",dpi=1000)
 
